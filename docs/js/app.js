@@ -22,6 +22,7 @@ let proximoId = 1;
  * @returns {number} Média aritmética das notas
  */
 function calcularMedia(nota1, nota2, nota3) {
+    // Os parênteses garantem que a soma ocorra primeiro
     return (nota1 + nota2 + nota3) / 3;
 }
 
